@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "global_street_1",
+      "name": "Google Streets",
+      "url": "https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+      "referer": "https://maps.google.com/",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "xyz",
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "© Google",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "street"
+    },
+    {
+      "id": "global_imagery_1",
+      "name": "Google Satellite",
+      "url": "https://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+      "referer": "https://maps.google.com/",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "xyz",
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "© Google",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "satellite"
+    },
+    {
+      "id": "global_terrain_1",
+      "name": "Google Terrain",
+      "url": "https://mt{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}",
+      "referer": "https://maps.google.com/",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "xyz",
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "© Google",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "terrain"
+    },
+    {
+      "id": "global_hybrid_1",
+      "name": "Google Hybrid",
+      "url": "https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+      "referer": "https://maps.google.com/",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "xyz",
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "© Google",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "hybrid"
+    },
+    {
+      "id": "global_imagery_2",
+      "name": "Bing Satellite",
+      "url": "https://ecn.t{s}.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1",
+      "referer": "https://www.bing.com/maps",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "quadkey",
+      "minZoom": 0,
+      "maxZoom": 19,
+      "attribution": "© Microsoft",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "satellite"
+    },
+    {
+      "id": "global_street_2",
+      "name": "Bing Streets",
+      "url": "https://ecn.t{s}.tiles.virtualearth.net/tiles/r{q}.jpeg?g=1",
+      "referer": "https://www.bing.com/maps",
+      "subdomains": ["0", "1", "2", "3"],
+      "scheme": "quadkey",
+      "minZoom": 0,
+      "maxZoom": 19,
+      "attribution": "© Microsoft",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "street"
+    },
+    {
+      "id": "global_imagery_3",
+      "name": "Esri World Imagery",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "subdomains": [],
+      "scheme": "xyz",
+      "minZoom": 0,
+      "maxZoom": 19,
+      "attribution": "Esri, Maxar, Earthstar Geographics",
+      "allowOfflineDownload": true,
+      "allowImageExport": true,
+      "category": "satellite"
+    }
+  ]
+}
